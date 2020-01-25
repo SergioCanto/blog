@@ -1,0 +1,24 @@
+.sub{
+    font-weight: bolder;
+}
+
+ul{
+    list-style: none;
+}
+
+.paragraph{
+    margin-bottom: 10px;
+    border: solid 2px black;
+    width: fit-content;
+    padding: 8px;
+}
+
+fieldset{
+    width: fit-content;
+    border: solid 2px black;
+    margin: 15px;
+}
+
+button{
+    margin-top: 10px;
+}

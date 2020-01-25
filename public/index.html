@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viweport" content="width=device-width">
+        <title>Blog</title>
+        <link href="./css/index.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <h1>Comentarios</h1>
+        <ul id="commentList">
+        </ul>
+        
+        <form id="add">
+            <fieldset>
+
+                <legend>
+                    Agregar comentario
+                </legend>
+
+                <div>
+                    Titulo:
+                </div>
+                <div>
+                    <input type="text" id="Titulo" class="formElement"/>
+                </div>
+
+                <div>
+                    Contenido:
+                </div>
+                <textarea id="Contenido">
+
+                </textarea>
+                
+                <div>
+                    Autor:
+                </div>
+                <div>
+                    <input type="text" id="Autor" class="formElement"/>
+                </div>
+
+                <button id="agregar" class="clickable">
+                    Agregar
+                </button>
+
+            </fieldset>
+        </form>
+
+        <form id="edit">
+            <fieldset>
+
+                <legend>
+                    Actualizar comentario
+                </legend>
+
+                <div>
+                    ID:
+                </div>
+                <div>
+                    <input type="text" id="id" class="formElement"/>
+                </div>
+
+                <div>
+                    Titulo:
+                </div>
+                <div>
+                    <input type="text" id="TituloEdit" class="formElement"/>
+                </div>
+
+                <div>
+                    Contenido:
+                </div>
+                <textarea name="ContenidoEdit">
+
+                </textarea>
+                
+                <div>
+                    Autor:
+                </div>
+                <div>
+                    <input type="text" id="AutorEdit" class="formElement"/>
+                </div>
+
+                <button id="editar" class="clickable">
+                    Actualizar
+                </button>
+
+            </fieldset>
+        </form>
+
+        <form id="delete">
+            <fieldset>
+
+                <legend>
+                    Eliminar comentario
+                </legend>
+
+                <div>
+                    ID:
+                </div>
+                <div>
+                    <input type="text" id="idEliminar" class="formElement"/>
+                </div>
+
+                <button id="eliminar" class="clickable">
+                    Eliminar
+                </button>
+
+            </fieldset>
+        </form>
+
+        <form id="mostrar">
+            <fieldset>
+
+                <legend>
+                    Buscar por autor
+                </legend>
+
+                <div>
+                    Autor:
+                </div>
+                <div>
+                    <input type="text" id="autorBuscar" class="formElement"/>
+                </div>
+
+                <button id="buscar" class="clickable">
+                    Buscar
+                </button>
+
+            </fieldset>
+        </form>
+
+        <ul id="commentAutor">
+        </ul>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script src="./js/index.js"></script>
+    </body>
+</html>
